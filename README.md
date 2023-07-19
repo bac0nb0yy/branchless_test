@@ -12,3 +12,5 @@ To this :
 ![image](https://github.com/bac0nb0yy/branchless_test/assets/85128494/06f3ebad-f4d9-4f41-b7f4-c0519c7cb2f7)
 
 The branch version is faster, but compilator must optimize it better than my version without :(
+
+You can edit the number of caracters to test in text.txt
