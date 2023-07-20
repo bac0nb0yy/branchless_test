@@ -3,7 +3,7 @@
 double	rot13_branch(int iterations, size_t BUFFER_SIZE);
 double	rot13_branchless(int iterations, size_t BUFFER_SIZE);
 
-#define ITERATIONS 1000
+#define ITERATIONS 100
 #define BUFFER_SIZE 7000000
 
 int main(void)
