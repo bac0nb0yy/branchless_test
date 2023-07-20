@@ -3,7 +3,7 @@ Test to see if branchless programming is optimal for some functions in C
 To see the difference with and without branch :
 ```make && ./diff```
 
-<strong><h1>TO_UPPER</h1></strong>
+<strong><h1>TO_UPPER (one if)</h1></strong>
 
 From this :
 
@@ -22,7 +22,7 @@ Average difference :
 
 
 
-<strong><h1>LEAP_YEAR</h1></strong>
+<strong><h1>LEAP_YEAR (nested if)</h1></strong>
 
 From this :
 
@@ -38,7 +38,7 @@ Average difference :
 ![image](https://github.com/bac0nb0yy/branchless_test/assets/85128494/089cc5d9-bc57-44ee-9ecf-d415edb1a2ac)
 
 
-<strong><h1>ROT13</h1></strong>
+<strong><h1>ROT13 (if and else if)</h1></strong>
 
 From this :
 
