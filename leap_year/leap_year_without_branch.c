@@ -4,7 +4,7 @@
 
 bool	without_branch(int year)
 {
-	return (!(year & 2) && (year % 100 != 0 || !(year % 400)));
+	return (!(year & 2) && (year % 100 || !(year % 400)));
 }
 
 double leap_year_branchless(int iterations)
