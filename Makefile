@@ -1,9 +1,11 @@
 NAME = diff
 
-CC = cc
+CC =	cc
 SRC =	with_branch.c \
-		without_branch.c \
-		main.c
+	with_branch_b.c \
+	without_branch.c \
+	without_branch_b.c \
+	main.c
 
 OBJ = $(SRC:.c=.o)
 
